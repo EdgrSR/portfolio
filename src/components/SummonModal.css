@@ -1,0 +1,123 @@
+p {
+  margin-bottom: 0px;
+}
+
+.summon-message {
+  color: white;
+  position: fixed;
+  width: 95svw;
+  max-width: 600px;
+  left: 50svw;
+  transform: translate(-50%, 0%);
+  background: url('/summonMessageBg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1000;
+  border-top: 1px solid rgb(140, 140, 140);
+  border-bottom: 1px solid rgb(140, 140, 140);
+  padding-top: 8px;
+  display: flex;
+}
+
+#message {
+  top: 10svh;
+  flex-direction: column;
+}
+
+#message-content {
+  display: flex;
+  margin: 0px 0px;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  margin: 0px 7%;
+}
+
+#message-icon {
+  height: 90px;
+  width: 90px;
+  min-height: 90px;
+  min-width: 90px;
+  background: url('/messageIcon.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#message-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+#message-button-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 3% 0px 3%;
+  border-top: 1px solid rgb(120, 110, 90);
+  padding: 2px 0px;
+}
+
+.message-button {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  background-color: rgba(0, 0, 0, 0.0);
+  border: none;
+}
+
+#summon-top {
+  top: 10svh;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 8px;
+}
+
+#summon-bottom {
+  bottom: 10svh;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+
+#summon-pic {
+  height: 90px;
+  width: 90px;
+  background: url('/pfPic.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid rgb(120, 110, 90);
+  margin: 6px 0px;
+}
+
+#summon-button-list {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.summon-button {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  padding: 1px;
+  border: 3px double rgba(120, 120, 120, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.summon-button:hover {
+  border: 3px solid rgb(202, 101, 0);
+}
